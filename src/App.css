@@ -9,18 +9,39 @@ html, body, #root{
   align-items: center;
 }
 #input{
-  background-color: beige;
-  width: 200px;
+  color: white;
+  background-color: black;
+  width: 248px;
   height: 20px;
   margin: 0;
+  box-shadow: 0 0 10px white;
+  border-radius: 5px;
+}
+#calcWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  width: 265px;
+  background-color: rgb(49, 49, 49);
+  border-radius: 5px;
 }
 #buttons{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   width: 250px;
-  margin: 0 auto;
+  margin: 5px auto 0;
+  background-color: black;
+  border-radius: 5px;
 }
 .button{
+  color: white;
   height: 50px;
   width: 50px;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
 }
